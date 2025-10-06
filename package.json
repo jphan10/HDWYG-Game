@@ -1,0 +1,22 @@
+{
+  "name": "hdwyg-pdf-card-reader",
+  "version": "1.0.0",
+  "description": "A web app that turns PDF pages into interactive cards",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "python -m http.server 8000"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "pdf",
+    "cards",
+    "dating",
+    "web-app"
+  ],
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
